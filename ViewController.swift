@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var label: UILabel!
     
     @IBAction func actionChangeLabel() {
-        label.text = "버튼을눌렀다ㅁㅁㅁㅁㅁㅁ!,,;,;,',;,';,'!!"
+        label.text = "버튼을눌렀다!!"
     }
     
     override func viewDidLoad() {
