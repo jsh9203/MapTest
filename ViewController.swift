@@ -14,7 +14,13 @@ class ViewController: UIViewController {
     
     // this is master comment
     @IBAction func actionChangeLabel() {
-        label.text = "버튼을눌렀다!!?????"
+        if label.tag == 0 {
+            label.text = "버튼을눌렀다!!?????"
+            label.tag = 1
+        } else {
+            label.text = "다시 돌아왔따"
+            label.tag = 0
+        }
     }
     
     override func viewDidLoad() {
