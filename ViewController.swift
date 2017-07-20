@@ -14,7 +14,13 @@ class ViewController: UIViewController {
     
     // 브런치 테스트
     @IBAction func actionChangeLabel() {
-        label.text = "버튼을눌렀다!!?????"
+        if label.tag == 0 {
+            label.text = "버튼을눌렀다!!?????"
+            label.tag = 1
+        } else {
+            label.text = "다시 돌아왔따"
+            label.tag = 0
+        }
     }
     
     override func viewDidLoad() {
