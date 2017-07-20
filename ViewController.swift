@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet var label: UILabel!
     
+    // 브런치 테스트
     @IBAction func actionChangeLabel() {
         label.text = "버튼을눌렀다!!?????"
     }
