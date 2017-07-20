@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet var label: UILabel!
     
+    // this is master comment
     @IBAction func actionChangeLabel() {
         label.text = "버튼을눌렀다!!?????"
     }
